@@ -1,0 +1,50 @@
+Metadata-Version: 2.0
+Name: django-ratelimit
+Version: 1.1.0
+Summary: Cache-based rate-limiting for Django.
+Home-page: https://github.com/jsocol/django-ratelimit
+Author: James Socol
+Author-email: me@jamessocol.com
+License: Apache Software License
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+================
+Django Ratelimit
+================
+
+Django Ratelimit provides a decorator to rate-limit views. Limiting can
+be based on IP address or a field in the request--either a GET or POST
+variable.
+
+.. image:: https://travis-ci.org/jsocol/django-ratelimit.png?branch=master
+   :target: https://travis-ci.org/jsocol/django-ratelimit
+
+:Code:          https://github.com/jsocol/django-ratelimit
+:License:       Apache Software License 2.0; see LICENSE file
+:Issues:        https://github.com/jsocol/django-ratelimit/issues
+:Documentation: http://django-ratelimit.readthedocs.io/
+
+
